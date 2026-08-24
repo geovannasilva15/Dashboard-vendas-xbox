@@ -4,6 +4,9 @@
 
 </div>
 
+![Visão explicativa do projeto Dashboard Xbox Game Pass](assets/readme-project-overview.svg)
+
+
 <div align="center">
 
 [![Excel](https://img.shields.io/badge/Microsoft_Excel-Dashboard-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)](dashboard_vendas_xbox_game_pass.xlsx)
