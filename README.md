@@ -1,82 +1,57 @@
-# Dashboard de Vendas Xbox Game Pass
+<div align="center">
 
-## Descrição do projeto
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=107c10&height=180&section=header&text=Dashboard%20Xbox%20Game%20Pass&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=An%C3%A1lise%20de%20vendas%20e%20assinaturas%20no%20Microsoft%20Excel&descAlignY=57" alt="Dashboard Xbox Game Pass" />
 
-Este projeto foi desenvolvido como parte de um desafio prático de criação de dashboard de vendas no Excel.  
-O objetivo é transformar uma base de dados bruta em informações visuais claras, organizadas e úteis para análise do desempenho de vendas.
+</div>
 
-O dashboard permite acompanhar indicadores como receita total, quantidade de assinantes, ticket médio, renovação automática, receita por plano, receita por tipo de assinatura e evolução mensal das vendas.
+<div align="center">
 
-## Base de dados utilizada
+[![Excel](https://img.shields.io/badge/Microsoft_Excel-Dashboard-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)](dashboard_vendas_xbox_game_pass.xlsx)
+[![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)](#)
 
-A base utilizada contém registros de assinaturas do Xbox Game Pass, com informações como:
+**Dashboard interativo para transformar dados de assinaturas em indicadores claros e úteis para decisão.**
 
-- ID do assinante
-- Nome do cliente
-- Plano contratado
-- Data de início
-- Renovação automática
-- Preço da assinatura
-- Tipo de assinatura
-- Compra de passes adicionais
-- Valor de cupom
-- Valor total da venda
+</div>
 
-## Tratamento e organização dos dados
+## Visão geral
 
-No arquivo Excel, os dados foram organizados em abas para facilitar a leitura e manutenção:
+Projeto desenvolvido em Excel para análise do desempenho de vendas do Xbox Game Pass. A solução organiza a base, consolida métricas e apresenta uma leitura executiva do comportamento das assinaturas.
 
-- **Base:** contém a base de dados tratada e formatada.
-- **Cálculos:** contém os indicadores e tabelas auxiliares utilizadas no dashboard.
-- **Dashboard:** apresenta os principais KPIs e gráficos visuais.
-- **README:** contém uma explicação resumida do projeto dentro do próprio Excel.
+## Indicadores
 
-## Indicadores criados
-
-O dashboard apresenta os seguintes indicadores:
-
-- Receita total
+- Receita total e evolução mensal
 - Total de assinantes
 - Ticket médio
-- Percentual de assinantes com renovação automática
-- Receita por plano
-- Receita por tipo de assinatura
-- Evolução mensal da receita
-- Receita e adesão dos passes adicionais
+- Renovação automática
+- Receita por plano e tipo de assinatura
+- Adesão e receita de passes adicionais
+
+## Organização do arquivo
+
+| Aba | Finalidade |
+|---|---|
+| Base | Dados tratados e formatados |
+| Cálculos | Indicadores e tabelas auxiliares |
+| Dashboard | KPIs e gráficos |
+| README | Documentação dentro da planilha |
 
 ## Principais insights
 
-Com base nos dados analisados:
+- O plano Ultimate concentra a maior parcela do faturamento
+- O período entre março e novembro apresenta maior força de receita
+- A base mostra equilíbrio entre assinantes com e sem renovação automática
+- Passes adicionais contribuem de forma relevante para o valor total
 
-- O plano **Ultimate** concentra a maior parte do faturamento.
-- A receita mensal tem maior força entre março e novembro.
-- A base possui equilíbrio entre assinantes com e sem renovação automática.
-- Os passes adicionais contribuem de forma relevante para o valor total das vendas.
+## Como visualizar
 
-## Como reproduzir o projeto
+1. Baixe [dashboard_vendas_xbox_game_pass.xlsx](dashboard_vendas_xbox_game_pass.xlsx).
+2. Abra o arquivo no Microsoft Excel.
+3. Consulte as abas **Base**, **Cálculos** e **Dashboard**.
 
-1. Baixe ou clone este repositório.
-2. Abra o arquivo `dashboard_vendas_xbox_game_pass.xlsx` no Microsoft Excel.
-3. Acesse a aba **Base** para visualizar os dados.
-4. Acesse a aba **Cálculos** para conferir os indicadores.
-5. Acesse a aba **Dashboard** para visualizar a análise final.
+## Competências aplicadas
 
-## Estrutura sugerida do repositório
+Tratamento de dados, fórmulas, tabelas estruturadas, criação de KPIs, visualização de dados e organização de dashboard.
 
-```text
-dashboard-vendas-xbox/
-├── README.md
-└── dashboard_vendas_xbox_game_pass.xlsx
-```
+## Autoria
 
-## Ferramentas utilizadas
-
-- Microsoft Excel
-- Tabelas estruturadas
-- Fórmulas
-- Gráficos
-- Organização visual de KPIs
-
-## Autor
-
-Projeto desenvolvido por Geovanna Silva.
+Desenvolvido por **[Geovanna Eduarda da Silva](https://github.com/geovannasilva15)**.
