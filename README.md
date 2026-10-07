@@ -11,6 +11,17 @@ Dashboard desenvolvido em Microsoft Excel para transformar dados de assinaturas 
 - receita por plano e tipo de assinatura;
 - adesão e receita de passes adicionais.
 
+## Resultados da base
+
+| Indicador | Resultado |
+|---|---:|
+| Receita total | R$ 7.633,00 |
+| Assinantes | 295 |
+| Ticket médio | R$ 25,87 |
+| Renovação automática | 50,2% |
+
+O plano Ultimate representa R$ 5.388,00 da receita. Entre os tipos de assinatura, o plano mensal registra R$ 3.571,00.
+
 ## Organização da planilha
 
 | Aba | Conteúdo |
@@ -25,6 +36,8 @@ Dashboard desenvolvido em Microsoft Excel para transformar dados de assinaturas 
 1. Baixe [dashboard_vendas_xbox_game_pass.xlsx](dashboard_vendas_xbox_game_pass.xlsx).
 2. Abra o arquivo no Microsoft Excel.
 3. Acesse a aba **Dashboard**.
+
+Os indicadores são calculados a partir da aba **Base** e consolidados na aba **Cálculos**. A planilha não utiliza macros.
 
 ## Competências aplicadas
 
